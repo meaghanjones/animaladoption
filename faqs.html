@@ -13,7 +13,11 @@
   <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAaHN3ABUiJAAOFxoAFSEnAA4WHQBmcXUADx8lAA8eIADf6/EAAw8RABEdIwAMEhkACxshAFJeYgAQHB4A1eHlAA0aHAAJGR8A2+ftAA0ZHwALGBoACxcdAExYXAAKFhgA1+PpAIeTkwA/T1UA/f7/AP/+/wASIigASlZaANvl7AAWJSgAFCEjANze3wBJVFgA09/lAEpaYAAhLjAADh4kAEZSVgASHiQAEiEkABsrMQAMHCIAbHJ3AN7q8ABKVlwASFlcANjo7gAKGiAA3OjuAAAMDgAUHiUA+v//AP/8/wD7//8A/f//AE9bXwD///8ACBgeANrm7AAbJy0AjJaWABIbHgDY5OoAiJSUAEtXWwBMV1sAFyMpAAgUGgCIkpIA+P3+AA8PDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw8PDw8ODUrKwo4PDw8PDw8PDw3DBQvNDQvCwVJPDw8HUZHQjQ0NDQ0NDQ0PhY/HQIlNDQZMCAtKDIwEDQ0EwgjSjQ0FxcXBygXFxcJNEpKPB4XFzFKShcXSiExFxdKOh0oFxcGLjsXFxcXBhcXKB08GB8xAQEXFxcXAQExHzY8PDkbFyQBFxcXFwFFFyYcPDwRSikXFxcXFxcXFxdKDzw8KkhKFxcXFxcXFx9KQwQ8PD1AOywNRBcXRDNKDhoHPDwiFxJKOicHByc6ShIXFTw8N0E8PDw8PDw8PDw8Azc8AAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAA=" rel="icon" type="image/x-icon" />
   <title>PetMate</title>
+  <link rel="stylesheet" href="./faq.css">
+  <script type="text/javascript" src="./faq.js"></script>
   <link href="./main.97292821.css" rel="stylesheet">
+  <script type="text/javascript" src="./sound-mouseover.js"></script>
+
 </head>
 <body>
  <!-- Add your content of header -->
@@ -34,7 +38,6 @@
           <li><a href="./home.html" title="">Home</a></li>
           <li><a href="./faqs.html" title="">FAQs</a></li>
           <li><a href="./video.html" title="">Why Adopt?</a></li>
-
           <!-- <li>
             <p>
               <a href="./components.html" class="btn btn-default navbar-btn" >Components</a>
@@ -58,92 +61,103 @@
     </div>
 </div>
 
-<div class="section-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-12 section-container-spacer">
-                <h2 class="text-center">Be the Perfect Pet's Forever Home</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <div class="fa-container">
-                    <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
-                </div>
-                <h3 class="text-center">Consectetur</h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident.</p>
-            </div>
-
-            <div class="col-xs-12 col-md-4">
-                <div class="fa-container">
-                    <i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>
-                </div>
-                <h3 class="text-center">Matching Algorithm</h3>
-                <p>After filling out a form about you personality and lifestyle we will run your answers through our algorithm to find the perfect pet match for you. We promise you'll love him or her!</p>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <div class="fa-container">
-                    <i class="fa fa-usd fa-3x" aria-hidden="true"></i>
-                </div>
-                <h3 class="text-center">Refer a Friend</h3>
-                <p>For each friend your refer that goes through the adoption process with PetMate you recieve $20 in coupons to a local pet store.</p>
-            </div>
-        </div>
-    </div>
+<div class="container">
+  <h2 class="text-center">Frequently Asked Questions</h2>
+  <a href="#" onmouseover="playclip();">
+    <img class="center-block" src="./assets/images/pup.png" alt="Puppy">
+  </a>
 </div>
 
-<div class="section-container section-half-background-image-container">
-    <div class="image-column" style="background-image: url('./assets/images/img-01.jpg')"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-6 text-column">
-                <h2>Successful Match - Brad and Bear</h2>
-                <h3>Lorem ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit. Nam eu laoreet velit. Vivamus laoreet, sem nec scelerisque
-                    elementum, dui augue aliquet urna, ut bibendum purus erat ut massa. Mauris diam orci, feugiat a turpis
-                    et, congue accumsan risus. Nulla malesuada leo sodales, auctor augue quis, condimentum lacus. Phasellus
-                    sed sollicitudin quam, a bibendum urna.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus «
-                    ut lacus » tellus. In pretium lobortis blandit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
+<div class="container text-center">
+    <div class="tab-content panels-faq">
+      <div class="tab-pane active" id="tab1">
+        <div class="panel-group" id="help-accordion-1">
+          <div class="panel panel-default panel-help">
+            <a href="#opret-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+              <div class="panel-heading">
+                <h3>What will you sell?</h3>
+              </div>
+            </a>
+            <div id="opret-produkt" class="collapse in">
+              <div class="panel-body">
+                <p>An application that is used to match the characteristics of potential pet owners and prospective pets in local shelters and pet stores.</p>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default panel-help">
+            <a href="#rediger-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+              <div class="panel-heading">
+                <h3>Who will buy it?</h3>
+              </div>
+            </a>
+            <div id="rediger-produkt" class="collapse">
+              <div class="panel-body">
+                <p>The survey suggests that about 70% of people interested in buying pets in the future would like to use this service. Of the people wanting to use this service, 54.7% of them would be willing to pay based on the rates and the rest said they would use it even if advertisements were present if they could use it for free. </p>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default panel-help">
+            <a href="#ret-pris" data-toggle="collapse" data-parent="#help-accordion-1">
+              <div class="panel-heading">
+                <h3>How will your business idea help people?</h3>
+              </div>
+            </a>
+            <div id="ret-pris" class="collapse">
+              <div class="panel-body">
+                <p>This service provides people who are looking for a pet to be matched with animals that fit their characteristics and lifestyle. It will also benefit shelters by hopefully lowering the return rate on animals.</p>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default panel-help">
+            <a href="#slet-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
+              <div class="panel-heading">
+                <h3>What will you charge?</h3>
+              </div>
+            </a>
+            <div id="slet-produkt" class="collapse">
+              <div class="panel-body">
+                <p>I would like to charge $10 for every download. I feel as though that is a reasonable cost to help people be matched with an ideal pet for their personal life style and characteristics.</p>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default panel-help">
+            <a href="#opret-kampagne" data-toggle="collapse" data-parent="#help-accordion-1">
+              <div class="panel-heading">
+                <h3>How can you encourage referrals?</h3>
+              </div>
+            </a>
+            <div id="opret-kampagne" class="collapse">
+              <div class="panel-body">
+                <p>I would like to encourage referrals by providing coupons for animal products to people who refer friends to use this service.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="tab2">
+        <div class="panel-group" id="help-accordion-2">
+          <div class="panel panel-default panel-help">
+            <a href="#help-three" data-toggle="collapse" data-parent="#help-accordion-2">
+              <div class="panel-heading">
+                <h3>Lorem ipsum?</h3>
+              </div>
+            </a>
+            <div id="help-three" class="collapse in">
+              <div class="panel-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam est!</p>
+                <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <audio>
+    <source src="./bark.mp3">
+  </audio>
+  <div id="sounddiv"><bgsound id="sound"></div>
 
-            </div>
-        </div>
-    </div>
-</div>
-<div class="section-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-12 section-container-spacer">
-                <h2 class="text-center">Current Pets Ready for Adoption</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <img src="./assets/images/img-02.jpg" alt="" class="img-responsive">
-                <h3 class="text-center">Consectetur</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <img src="./assets/images/img-03.jpg" alt="" class="img-responsive">
-                <h3 class="text-center">Malesuada</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <img src="./assets/images/img-04.jpg" alt="" class="img-responsive">
-                <h3 class="text-center">Phasellus</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
-            </div>
-        </div>
-    </div>
-</div>
 
 <footer class="footer-container white-text-container">
     <div class="container">
